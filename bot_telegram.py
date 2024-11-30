@@ -85,8 +85,7 @@ def main():
             f.write(json.dumps(results))
 
     print("results: ", results)
-    
-    quit()
+
     # checking prices for the first 5 results
     for res in results[:5]:
         print("checking price for: ", res)
